@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: image-dump
+Version: 0.1.0
+Summary: A utility to download images using the Pexels API and uv.
+Author-email: Steven Das <steven@example.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31
+
+# image-dump

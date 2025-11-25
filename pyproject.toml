@@ -1,0 +1,32 @@
+[project]
+name = "image-dump"
+version = "0.1.0"
+description = "A utility to download images using the Pexels API and uv."
+authors = [
+    {name = "Steven Das", email = "steven@example.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    # Required for API calls and file downloads
+    "requests>=2.31", 
+    
+    # Required for command line interaction (optional, but often useful)
+    # "click>=8.1", 
+]
+
+[build-system]
+# Standard backend for modern Python packaging (setuptools recommended)
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+# Optional: uv-specific settings
+# You can define tool settings here, though uv often works fine without them.
+
+[tool.mypy]
+# Optional: Static type checker settings
+# mypy is a common tool used alongside uv for quality control.
+strict = true
